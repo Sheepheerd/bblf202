@@ -1,0 +1,4 @@
+# No external dependencies required for basic implementation
+# For hardware integration, add:
+# RPi.GPIO>=0.7.0  # For Raspberry Pi GPIO
+# adafruit-circuitpython-motorkit>=1.6.0  # For motor control
