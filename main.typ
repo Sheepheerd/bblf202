@@ -6,6 +6,7 @@
   date: "November 9, 2025",
   additional-logos: (image("./logo.png"),),
   remove-hpi-logo: true,
+  chair: "ACM Wright State Chapter",
 )
 
 = Abstract
@@ -27,16 +28,15 @@ The main objectives of the project are to:
 = Project Design / Methodology
 
 == Hardware Design
-Students are provided with a kit to build their robot. However, this kit has been crafted for variety. Students will be able to attend *Robo-Nights* which will walk them through how to develop a specific iteration of the kit. This will provide students with a baseline to go from, no matter where they are in the project.
+Students are provided with a kit to build their robot. Students will be able to attend *Robo-Nights* which will walk them through how to develop a specific iteration of the kit. This will provide students with a baseline to go from, no matter where they are in the project.
 
 == Software and Control
-The microcontrollers of the robots will be programmed by the students. Visual demonstrations will be provided during the *Robo-Nights*. Demonstration code will also be provided for students to become familier with serial communication.
+The microcontrollers of the robots will be programmed by the students. Visual demonstrations will be provided during the *Robo-Nights*. Demonstration code will be provided for students to become familier with serial communication.
 
 == Evaluation Plan
 Student's performance will be evaluated based on their ability to design, build, and program a functional line-following robot. Close to the end of the semester, students will be permitted to enter their robot into a competition to compete against other student's robots. The end goal is not to see who is the winner, but for students to analyze the other created robots and their techniques.
 
 = Resources
-Students will recieve a kit of approved materials. Students who decide to enter the competition must provide a bill of materials used for their robot. The current list of materials include:
 
 === Microboards
 - Raspberry Pi Pico -> \$7.495 per Unit
