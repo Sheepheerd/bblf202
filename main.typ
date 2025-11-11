@@ -6,9 +6,13 @@
   date: "November 9, 2025",
   remove-hpi-logo: false,
 )
-
 = Abstract
-Computer engineering students at Wright State University currently have limited extracurricular opportunities to engage in hands-on robotics projects. Most student-led or department-supported projects are organized for computer science majors and primarily emphasize software development. Events such as the *_ACM Coding Competition_* and the *_Alumni Associations Hackathon_* are designed for computer science students to strengthen their programming and and development skills. The *_Piano Staircase_* project has recently sparked some attention from computer engineering students by involving microcontrollers and Time-of-Flight sensors. However, Wright State University has been investing in this idea for the last decade. This proposal introduces a new initiative that offers a novel approach to understanding robotics through research and development.
+This project proposes the development of a line-following robot program at Wright State University as a means to enhance hands-on learning within the field of computer engineering. Students will learn to program embedded systems, process sensor data, and develop a functional system. Through workshops and *_Robo-Night_* sessions, students will design, build, and program autonomous robots capable of following a marked path using infrared sensors and real-time feedback control.
+\
+This initiative aims to strengthen the university's commitment to experiential learning. It will support academic growth and enhance Wright State University's public image as a hub for applied robotics education.
+
+= Introduction
+Computer engineering students at Wright State University currently have limited extracurricular opportunities to engage in hands-on robotics projects. Most student-led or department-supported projects are organized for computer science majors and primarily emphasize software development. Events such as the *_ACM Coding Competition_* and the *_Alumni Associations Hackathon_* are designed for computer science students to strengthen their programming and development skills. The *_Piano Staircase_* project has recently sparked some attention from computer engineering students by involving microcontrollers and Time-of-Flight sensors. However, Wright State University has been investing in this idea for the last decade. This proposal introduces a new initiative that offers a novel approach to understanding robotics through research and development.
 
 = Objectives
 The scope of this project centers on developing a line-following robot as part of a hands-on learning experience in robotics. The robot will be designed to autonomously track a marked path on the ground using sensor feedback and motor control. The project will progress through structured phases, including system design, hardware construction, software programming, and performance testing.
@@ -26,21 +30,21 @@ The main objectives of the project are to:
 = Project Design / Methodology
 
 == Hardware Design
-Students are provided with a kit to build their robot. Students will be able to attend *_Robo-Nights_* which will walk them through how to develop a specific iteration of the kit. This will provide students with a baseline to go from, no matter where they are in the project.
+Students are provided with a kit to build their robot. Students will be able to attend *_Robo-Nights_* which will walk them through how to develop a specific iteration of the kit. This will provide students with a baseline to build from, no matter where they are in the project.
 
 == Software and Control
-The microcontrollers of the robots will be programmed by the students. Visual demonstrations will be provided during the *_Robo-Nights_*. Demonstration code will be provided for students to become familier with serial communication. Students will be expected to code:
+The microcontrollers of the robots will be programmed by the students. Visual demonstrations will be provided during the *_Robo-Nights_*. Demonstration code will be provided for students to become familiar with serial communication. Students will be expected to code:
 - IR sensing and data collection (Vision)
 - Motors (Movement)
-- Communication with microcontroller and externals (Connecting Vision with Movement)
+- Communication with the microcontroller and external devices (Connecting Vision with Movement)
 
 == Evaluation Plan
-Student's performance will be evaluated based on their ability to design, build, and program a functional line-following robot. Close to the end of the semester, students will be permitted to enter their robot into a competition to compete against other student's robots. The end goal is not to see who is the winner, but for students to analyze the other created robots and their techniques. The competition will be evaluated based on:
+Students performance will be evaluated based on their ability to design, build, and program a functional line-following robot. Close to the end of the semester, students will be permitted to enter their robot into a competition to compete against other student's robots. The end goal is not to see who is the winner, but for students to analyze the other created robots and their techniques. The competition will be evaluated based on:
 - Robot correctly following line
 - The speed of the robot and it's control 
 
 = The Line
-The Line will be black duck tape on a white ground.
+The Line will be black duct tape on a white ground.
 - 1.88 in
 
 = Resources
@@ -65,20 +69,20 @@ The Line will be black duck tape on a white ground.
 The body can be 3d printed
 
 == Overall Budget
-Roughtly \$450 for 20 Robots.
-- Cost is not including parts being broken or not working
+Roughly \$450 for 20 Robots.
+- Cost does not include parts being broken or not working
 
 = Timeline
 The event will be divided into *_Five Weeks_*:
 
 == Week 1: Students are given the kits. 
-Students will be provided with kits and a introduction. The talk will go over the logistics of the event. Students are encouraged to participated in the *_Labs_* as much as possible.
-== Week 2-4: Visual Demonstrastions and Robo-Nights
+Students will be provided with kits and an introduction. The talk will go over the logistics of the event. Students are encouraged to participate in the *_Labs_* as much as possible.
+== Week 2-4: Visual Demonstrations and Robo-Nights
 === Week 2
 Week 2 will cover the motors and the raspberry pi pico. Students are expected to have their robots at least moving in a straight line by the end of this week.
 === Week 3
-Week 3 will cover the vision of the robot. There will be a live demonstration explaing how to process data from IR sensors. Students will be expected to have their robots moving in the direction of the tape.
+Week 3 will cover the vision of the robot. There will be a live demonstration explaining how to process data from IR sensors. Students will be expected to have their robots moving in the direction of the tape.
 === Week 4
-Week 4 will be over optimizations. Students will learn how to bridge gaps in the lines with their robots. Different style choices in how the robot reacts to *_weird_* lines will be discussed.
+Week 4 will focus on optimizations. Students will learn how to bridge gaps in the lines with their robots. Different style choices in how the robot reacts to *_weird_* lines will be discussed.
 == Week 5: Performance Analysis and Competition.
 The competition will be held on this week. Students will bring their robots and compete, if they wish, against the other robots.
