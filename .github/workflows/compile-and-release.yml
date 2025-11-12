@@ -1,12 +1,12 @@
-name: Compile and Release PDF
+name: Compile Typst and Release PDF
 
 on:
   push:
     tags:
-      - "v*"    # only runs when you push a tag like v1.0.0
+      - "v*"
 
 jobs:
-  build:
+  build-and-release:
     runs-on: ubuntu-latest
 
     steps:
@@ -15,31 +15,15 @@ jobs:
 
       - name: Install Typst
         run: |
-          sudo apt-get update
-          sudo apt-get install -y typst
+          curl -L https://github.com/typst/typst/releases/latest/download/typst-x86_64-linux.tar.gz -o typst.tar.gz
+          tar -xzf typst.tar.gz
+          sudo mv typst /usr/local/bin/
+          typst --version
 
       - name: Compile PDF
-        run: |
-          make compile
+        run: make compile
 
-      - name: Upload compiled PDF as artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: LineFollowingWSU2026
-          path: LineFollowingWSU2026.pdf
-
-  release:
-    needs: build
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Download compiled artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: LineFollowingWSU2026
-          path: .
-
-      - name: Create GitHub Release
+      - name: Create Release with PDF
         uses: softprops/action-gh-release@v2
         with:
           files: LineFollowingWSU2026.pdf
