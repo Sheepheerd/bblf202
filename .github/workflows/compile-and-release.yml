@@ -14,6 +14,8 @@ jobs:
       - name: Setup Typst
         uses: typst-community/setup-typst@v4
 
+      - name: Setup just
+        uses: extractions/setup-just@v3
       - name: Compile PDF
         run: just compile
 
