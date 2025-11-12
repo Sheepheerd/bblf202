@@ -3,21 +3,24 @@ on:
   push:
     tags:
       - "v*"
+
 jobs:
   build-and-release:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+
       - name: Setup Typst
         uses: typst-community/setup-typst@v4
-      - name: Setup just
-        uses: extractions/setup-just@v3
+
       - name: Compile PDF
         run: just compile
-      - name: Create Release with PDF
-        uses: elgohr/Github-Release-Action@v5
+
+      - name: Create GitHub Release with PDF
+        uses: softprops/action-gh-release@v2
         with:
           files: LineFollowingWSU2026.pdf
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
