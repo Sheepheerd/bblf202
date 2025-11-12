@@ -1,32 +1,21 @@
 name: Compile Typst and Release PDF
-
 on:
   push:
     tags:
       - "v*"
-
 jobs:
   build-and-release:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-
-      - name: Install Typst
-        run: |
-          curl -L https://github.com/typst/typst/releases/latest/download/typst-x86_64-linux.tar.gz -o typst.tar.gz
-          tar -xzf typst.tar.gz
-          sudo mv typst /usr/local/bin/
-          typst --version
-
+      - name: Setup Typst
+        uses: typst-community/setup-typst@v4
       - name: Compile PDF
         run: make compile
-
       - name: Create Release with PDF
         uses: softprops/action-gh-release@v2
         with:
           files: LineFollowingWSU2026.pdf
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
