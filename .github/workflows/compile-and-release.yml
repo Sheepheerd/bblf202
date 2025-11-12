@@ -12,7 +12,7 @@ jobs:
       - name: Setup Typst
         uses: typst-community/setup-typst@v4
       - name: Compile PDF
-        run: make compile
+        run: just compile
       - name: Create Release with PDF
         uses: softprops/action-gh-release@v2
         with:
