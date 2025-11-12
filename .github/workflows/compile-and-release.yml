@@ -1,0 +1,48 @@
+name: Compile and Release PDF
+
+on:
+  push:
+    tags:
+      - "v*"    # only runs when you push a tag like v1.0.0
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Typst
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y typst
+
+      - name: Compile PDF
+        run: |
+          make compile
+
+      - name: Upload compiled PDF as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: LineFollowingWSU2026
+          path: LineFollowingWSU2026.pdf
+
+  release:
+    needs: build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Download compiled artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: LineFollowingWSU2026
+          path: .
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: LineFollowingWSU2026.pdf
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
