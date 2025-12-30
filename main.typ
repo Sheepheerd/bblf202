@@ -66,7 +66,7 @@ The Line will be black duct tape on a white ground.
 ]
 - #link("https://www.amazon.com/ASHGOOB-Universal-Furniture-Appliances-Polyurethane/dp/B0DHHJRDDV?dib=eyJ2IjoiMSJ9.GH6LlfuUc24KCMt66moQ0dHQ_Os7PwlFy9PyrK5P__8OsnsMH73VBqAp9Ewe4SQ1AtqYsRsmVqxyWXuHxTfkgZVizeOFZUoqYi019vXGxC4seO41JTU8nmd9WeAIbzKJMlfGP4nKly6u9fp3LI-iLYGd6t-xJSmrXHfOTpye4sPOAJLl1FMPTLmW44Mn2hAKCnYbMXkLWJ2bbSI4YCnUKfvj7AVu2as9WWXcBwP_4KQ.st_mY8ynQLDkpPf8RJghowNnFVt9qPeAYko5FeUSVDQ&dib_tag=se&keywords=Rolling+wheel&qid=1762817512&sr=8-1")[ Front Rolling Wheel -> \$ 1.25 per wheel]
 === Body
-The body can be 3d printed
+- #link("https://abelaelectronic.com/en/products/line-follower-robot-chassis")[ 3d Printed Body]
 
 == Overall Budget
 Roughly \$450 for 20 Robots.
