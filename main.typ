@@ -51,22 +51,22 @@ The Line will be black duct tape on a white ground.
 
 === Microboards
 - Raspberry Pi Pico -> \$7.495 per Unit
-- ESP32 -> \$6.66 per Unit
 === IR Sensors
 - TCRT5000 -> \$1.00 Per unit
 === Power
 - AA Battery and Connector -> \$2.00 Battery and Connector Cost
 === Motors and Driver Card
-- L298N module
 - TB6612FNG -> \$2.5 Per unit
-- DRV8835
 === Wheels
 - #link("https://www.amazon.com/Motor-Leads-Gearbox-Shaft-200RPM/dp/B0D8H89XDY?crid=364L5VKIZS8ZG&dib=eyJ2IjoiMSJ9.UFgu_Yvhkyz5wn-_a44fmB79qwwkvxPz8l572O_A5d0ETSMQYHG1wiS6aTiESQi1j420_JIS2T1vS5DGDtkCMLiNzQ88aqfG_bcAv9-r8lEN4KO-V2K75S80pyiEA2klUh--SHFnizSFyhJ8Oe6fPYE89-7GGR27qXftbOtvCWHqSOKuwV2LGFr40XU64LXJJFkg1yUDzhdZ-g54XowJ_4ibG83J_uN99p8-_K2hw5e8mOHg_iShndrJJdvIrL-xhGEVUJjkUdgLd_L45pRE57krXbbXS3gREO30-j_gMgs.cOwf1hd1MxGrS2VT08GZ66b1maq7rROQwldD4_LiDVg&dib_tag=se&keywords=DC+motor+and+wheels&qid=1762817279&sprefix=dc+motor+and+whee%2Caps%2C154&sr=8-1")[
   wheels + 6V 1:48 TT DC gearbox motors -> \$2.5 per wheel
 ]
-- #link("https://www.amazon.com/ASHGOOB-Universal-Furniture-Appliances-Polyurethane/dp/B0DHHJRDDV?dib=eyJ2IjoiMSJ9.GH6LlfuUc24KCMt66moQ0dHQ_Os7PwlFy9PyrK5P__8OsnsMH73VBqAp9Ewe4SQ1AtqYsRsmVqxyWXuHxTfkgZVizeOFZUoqYi019vXGxC4seO41JTU8nmd9WeAIbzKJMlfGP4nKly6u9fp3LI-iLYGd6t-xJSmrXHfOTpye4sPOAJLl1FMPTLmW44Mn2hAKCnYbMXkLWJ2bbSI4YCnUKfvj7AVu2as9WWXcBwP_4KQ.st_mY8ynQLDkpPf8RJghowNnFVt9qPeAYko5FeUSVDQ&dib_tag=se&keywords=Rolling+wheel&qid=1762817512&sr=8-1")[ Front Rolling Wheel -> \$ 1.25 per wheel]
 === Body
-- #link("https://abelaelectronic.com/en/products/line-follower-robot-chassis")[ 3d Printed Body]
+Bring your own carboard box.
+
+=== Screws
+6 M?, don't know length.
+1 Acorn Cap, don't know size or length
 
 == Overall Budget
 Roughly \$450 for 20 Robots.
