@@ -50,13 +50,16 @@ The Line will be black duct tape on a white ground.
 = Resources
 
 === Microboards
-- Raspberry Pi Pico -> \$7.495 per Unit
+- #link("https://www.amazon.com/Raspberry-Pi-Pico-Development-Integrated/dp/B0BDLHMQ9C?crid=2QWLD0HO8I8XA&dib=eyJ2IjoiMSJ9.UgC9ruITkp0J6Jz3B674QeD_5s_2kVFK-6pw5wXpUodfElFRplaSQOZhTe1eyJGW_NZ-qxbTOIfu35IV2mydkFNfFNZVSDUud4krLx1GYXQS74naLyVAk1EY4jbEn_y4arPsF6ZJr8_HYMuSZiTgT3COMBbr8ceVned1HU4e-vKzxk7-d4xzRGgnnNwmYV-wbD4byN7s60i4BfqUweYAeJvjLf1jbBLrnrm35iB2NKU.gvOF2_EkX2iEsAlGF84ou5yUkFpKhhfYhDO18PydTzU&dib_tag=se&keywords=Raspberry+Pi+Pico&qid=1767758016&sprefix=tcrt5000%2Caps%2C172&sr=8-2")[Raspberry Pi Pico -> \$7.495 per Unit]
 === IR Sensors
-- TCRT5000 -> \$1.00 Per unit
+- #link("https://www.amazon.com/HiLetgo-Channel-Tracing-Sensor-Detection/dp/B00LZV1V10?crid=1AVL4WKF6UNV4&dib=eyJ2IjoiMSJ9.3EaZdxvNlScNahkByoJoKScqiQ5ZotuDmqIfqgRcuOHmMFXGhZs8lJhVdgAryfAVmHzJE-uV9yEmI1VnEZOTerQE2T38YcpFEYQ8Y-Lupbr4h_FXGerpxel8ek8ZJtIEVZcyvARQ-3RXWaIX6MoRJsQKmhKyqesRgrhZgr5KJHJY50Jgw1PeOjDuS8emgtIpFSTzEPC-ajW5VHpV09Hfiu_EPHKWp-LkEKHhu4E1IQU.6sWQbwM4RJNEjmccJ0jj0HimMF6KXYfOrDDTMgsCCQo&dib_tag=se&keywords=TCRT5000&qid=1767757994&sprefix=4+battery+holder%2Caps%2C215&sr=8-4")[TCRT5000 -> \$1.00 Per unit]
 === Power
 - AA Battery and Connector -> \$2.00 Battery and Connector Cost
+- #link("https://www.amazon.com/WAYLLSHINE-2Pcs-Battery-Holder-Leads/dp/B09V7Z4MT7?crid=1EQIY8Z00YCSL&dib=eyJ2IjoiMSJ9.aWNVgKH8jF-fjeQsJ2eIoEshpvBH6iaTRzpxByE539AITBXsZKATAprsQ_CjKTZgwtah6cgMDHyoRZ1entsILHBwVLTrA3JRrebZkt3sfOWhvbQNdN5BfnNZrg9hBNywnTfaDR_3QEvmf0sbfhTLygfLIiFPaCAfwaBHfqy4Hfmx4R2XmHx7O5MSR1me5kvj0HDXsC_TA24OFKpLFTHooP2n7EOxzJt5DZC9-90X0Mw.vyxVNtT7sb2GDQe7bN0HtwecXv6t9k4rOnyTHbU1j34&dib_tag=se&keywords=2+battery+holder&qid=1767757891&sprefix=2+battery+holder%2Caps%2C169&sr=8-3")[2 AA holder]
+
+- #link("https://www.amazon.com/VWEICYY-Battery-Holder-housing-Without/dp/B0DZX39MHK?crid=3LDP5FNOCINJJ&dib=eyJ2IjoiMSJ9.hQVCzDNE3wFs2GVL11to1kfnn5_5dWcSh48T1yZtDPQE7G59I1a7JqrO_JIYD79xBst5sb6zjju136MHaqKgAYKSu6ImIVALDyv1MUIVKiGh0aq6p51b-ALEnRXef2vn2HPBr4lGMttat714J74pDu6CkLcHz6iyFWBiWh1jwgxPyq1dwr4DkaCohCO8R10Eplqv82v053zliTxhEGYPEkHpMH5zKbv449I2Qeqvqz0.0pj7VFFmkaFhwaZy_UJjOno9h9O_nOHNlEIDwgnzVjQ&dib_tag=se&keywords=4+battery+holder&qid=1767757938&sprefix=battery+holder%2Caps%2C225&sr=8-3")[4 AA holder]
 === Motors and Driver Card
-- TB6612FNG -> \$2.5 Per unit
+- #link("https://www.amazon.com/Dual-Motor-Driver-Module-TB6612FNG/dp/B08J3S6G2N?dib=eyJ2IjoiMSJ9.0k2ayQl-KVuMhVoPU5a0jykgUcFeQfu3gZWPti-HI_3e2-ZhugFhzHJDPFmm7VuuplwgH-svAkH1EUbOU0rraD0az8aBqPXuCB7r7pe4bY2X1F3h5wvcqh-wF880jswmQ_piFW1gTMjE_LwMAVM2fT9KUuS1_a0TLsr7xsCfcJkwgZ1dXWCrCM0QtDZ4k9XxlDINeCWVw2CcVMM-XxzNKKXkZGirlDSEdOTYPA9vNWc.WyCg_lip2tp4vzqkbj_6JHBRRxwOLuWfxV_MoUN5Srg&dib_tag=se&keywords=tb6612fng&qid=1767757810&sr=8-4")[TB6612FNG -> \$2.5 Per unit]
 === Wheels
 - #link("https://www.amazon.com/Motor-Leads-Gearbox-Shaft-200RPM/dp/B0D8H89XDY?crid=364L5VKIZS8ZG&dib=eyJ2IjoiMSJ9.UFgu_Yvhkyz5wn-_a44fmB79qwwkvxPz8l572O_A5d0ETSMQYHG1wiS6aTiESQi1j420_JIS2T1vS5DGDtkCMLiNzQ88aqfG_bcAv9-r8lEN4KO-V2K75S80pyiEA2klUh--SHFnizSFyhJ8Oe6fPYE89-7GGR27qXftbOtvCWHqSOKuwV2LGFr40XU64LXJJFkg1yUDzhdZ-g54XowJ_4ibG83J_uN99p8-_K2hw5e8mOHg_iShndrJJdvIrL-xhGEVUJjkUdgLd_L45pRE57krXbbXS3gREO30-j_gMgs.cOwf1hd1MxGrS2VT08GZ66b1maq7rROQwldD4_LiDVg&dib_tag=se&keywords=DC+motor+and+wheels&qid=1762817279&sprefix=dc+motor+and+whee%2Caps%2C154&sr=8-1")[
   wheels + 6V 1:48 TT DC gearbox motors -> \$2.5 per wheel
