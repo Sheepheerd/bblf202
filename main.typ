@@ -68,12 +68,12 @@ The Line will be black duct tape on a white ground.
 Bring your own carboard box.
 
 === Screws
-6 M?, don't know length.
-1 Acorn Cap, don't know size or length
+M3, 6mm, four per car
+M3, 10mm, one per car
+1 Acorn Cap per M3, 10mm.
 
 == Overall Budget
 Roughly \$450 for 20 Robots.
-- Cost does not include parts being broken or not working
 
 = Timeline
 The event will be divided into *_Five Weeks_*:
